@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Url shortening</title>
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="./assets/header-logo.svg" alt="Logo" />
+      <img src="./assets/burger.svg" alt="Burger menu" />
+    </header>
+    <section class="hero">
+      <h2 class="hero-title">More than just shorter links</h2>
+      <p class="hero-description">
+        Build your brand’s recognition and get detailed insights on how your
+        links are performing.
+      </p>
+      <a class="hero-cta" href="#">Get Started</a>
+    </section>
+    <form action="" class="url-form">
+      <label class="sr-only" for="link">Your link :</label>
+      <input
+        class="link-input"
+        type="text"
+        name="link"
+        placeholder="Shorten a link here..."
+      />
+      <input class="link-submit" type="submit" value="Shorten It!" />
+    </form>
+    <div class="short-links-wrapper">
+      <div class="shortened-link-wrapper">
+        <a class="short-link-long" href="https://www.frontendmentor.io"
+          >https://www.frontendmentor.io</a
+        >
+        <a class="short-link-short" href="https://rel.ink/k4lKyk"
+          >https://rel.ink/k4lKyk
+        </a>
+        <button class="short-link-copy">Copy</button>
+      </div>
+    </div>
+    <section class="statistics">
+      <h2 class="statistics-title">Advanced Statistics</h2>
+      <p class="statistics-description">
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </p>
+      <ul class="statistics-card-wrapper">
+        <li class="statistic-card">
+          <div class="statistics-card-logo">
+            <img src="" alt="" />
+          </div>
+          <h2 class="statistic-card-title">Brand Recognition</h2>
+          <p class="statistic-card-description">
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </li>
+        <li class="statistic-card">
+          <div class="statistics-card-logo">
+            <img src="" alt="" />
+          </div>
+          <h2 class="statistic-card-title">Detailed Records</h2>
+          <p class="statistic-card-description">
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </li>
+        <li class="statistic-card">
+          <div class="statistics-card-logo">
+            <img src="" alt="" />
+          </div>
+          <h2 class="statistic-card-title">Fully Customizable</h2>
+          <p class="statistic-card-description">
+            Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
